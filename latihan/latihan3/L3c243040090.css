@@ -1,0 +1,28 @@
+body {
+    font-family: 'Georgia', serif;
+}
+h1 {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: 60px;
+    color: darkblue;
+    text-align:center;
+}
+p {
+    text-align: justify;
+    text-align:center;
+}
+.bil{
+    color: white;
+}
+.bil:hover {
+    color: red;
+    text-decoration: none;
+}
+.bilker:hover {
+    background-color: blue; color: white;
+    text-decoration: none;
+} 
+.ker {
+    text-align:center;
+    color: orange
+}
