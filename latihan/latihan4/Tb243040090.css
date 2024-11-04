@@ -1,0 +1,71 @@
+body {
+    font: 16px/28px arial, sans-serif;
+    background-color: #eaeaea;
+    background-image: url(img/transisi.jpg);
+    color: #333;
+    background-size: cover; 
+    
+  }
+  .Bil {
+    width: 800px;
+    margin: auto;
+    background-color: #fff;
+  }
+  .Ly {
+    padding: 20px;
+    padding-bottom: 10px;
+  }
+  .Ly .Wicak {
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .Ly ul li {
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 10px;
+  }
+  .Ly a{
+    text-decoration: none;
+    color: tomato;
+    padding: 3px;
+  }
+  .Ly a:hover{
+    background-color: lightskyblue;
+    color: white;
+  }
+  .Sono {
+    height: 500px;
+    background-image: url(img/sisco.jpg);
+    background-size: cover;
+    background-position: 0 -100px;
+    border-top: 5px solid tomato;
+    border-bottom: 5px solid lightskyblue;
+  }
+  .Ker {
+    padding: 20px;
+  }
+  .Ker h2 {
+    font-size: 28px;
+    font-weight: bold;
+  }
+  .Ker .Bilker {
+    font-size: 11px;
+    margin-top: -5px
+  }
+  .Ker .Bilker a{
+    color: salmon;
+    text-decoration: none;
+  }
+  .Ker p{
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+  .Keren {
+    background-color: #333;
+    padding: 10px;
+  }
+  .Keren .Der {
+    color: #eaeaea;
+    text-align: center;
+    font-size: 12px;
+  }
