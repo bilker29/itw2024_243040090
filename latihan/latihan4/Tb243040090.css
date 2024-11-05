@@ -72,3 +72,17 @@ body {
   .Wicak {
     line-height: 1;
   }
+  .Bilker{
+      color: black;
+  }
+  .Bilker:hover {
+      color: lightblue;
+      text-decoration: none;
+  }
+.BillyGanteng{
+    color: white;
+}
+.BillyGanteng:hover {
+    color: black;
+    text-decoration: none;
+}
