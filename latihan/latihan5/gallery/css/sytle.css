@@ -22,7 +22,7 @@ body {
     background-repeat: no-repeat; 
     background-size: cover; 
     font-family: 'BebasNeue';
-    height: 689px;
+    height: 690px;
     line-height: 1;
 h1 {
     font-size: 140px;
@@ -35,22 +35,22 @@ h2 {
     margin-top: -80px;
     margin-bottom: 70px;
     text-align: center;
-    color: skyblue;
+    color: darkblue;
     font-family: 'BebasNeue';
     letter-spacing: 20px;
     padding-left: 20px;
     text-shadow: 0px 2px 5px black;  
 }
 .container {
-    width: 820px;
-    background-color: #1a71ac;
+    width: 850px;
+    background-color: rgb(26, 139, 184);
     margin: auto;
     padding: 30px;
     box-shadow: 2px 15px 10px 1px rgba(0, 0, 0, .5);
     border-radius: 20px;
 }
 .gallery li {
-    width: 130px;
+    width: 140px;
     height: 280px; 
     overflow: hidden;
     border: 5px solid white;
@@ -75,7 +75,7 @@ h2 {
 }
 .gallery li span {
     display: block;
-    width: 130px;
+    width: 140px;
     height: 280px;
     background-color:  rgba(200,200,200,.5);
     position: absolute;
@@ -142,7 +142,7 @@ h3 {
     color: white;
     font-size: 25px;
     text-decoration: none;
-    background-color: #003f8e;
+    background-color: black;
     border: 1px solid white;
     line-height: 25px;
     padding: 5px;
@@ -169,19 +169,16 @@ h3 {
         transform: scale(0);
         opacity: 0;
     }
-
     100% {
         transform: scale(1);
         opacity: 1;
     }
 }
-
 @keyframes slidedownfade {
     0% {
         opacity: 0;
         margin-top: -20px;
     }
-
     100% {
         opacity: 1;
         margin-top: 0;
