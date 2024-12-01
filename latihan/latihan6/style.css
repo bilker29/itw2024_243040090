@@ -41,9 +41,10 @@ nav ul li {
 nav ul li a {
     color: aliceblue;
     text-decoration: none;
-    font-size: 0.8em;
+    font-size: 1,5em;
     padding: 10px;
     display: block;
+    font-weight: normal;
 }
 
 nav ul li a:hover {
@@ -165,3 +166,41 @@ nav ul.slide {
     opacity: 1;
     transform: translateX(0);
 }
+
+/* search */
+.search-box {
+    background-color: white;
+    height: 18px;
+    padding: 7px 15px;
+    border-radius: 50px;
+}
+
+.search-box input {
+    border: none;
+    outline: none;
+    background: none;
+    width: 75px;
+}
+
+.search-box a {
+    color: black;
+}
+
+.shoping-box {
+    background-color: white;
+    height: 18px;
+    padding: 7px 15px;
+    border-radius: 50px;
+}
+
+.shoping-box input {
+    border: none;
+    outline: none;
+    background: none;
+    width: 75px;
+}
+
+.shoping-box a {
+    color: black;
+}
+
