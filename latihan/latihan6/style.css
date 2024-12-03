@@ -16,8 +16,14 @@ nav {
     justify-content: space-around;
     /* padding: 20px 0; */
     color: rgb(222, 253, 255);
-    height: 50px;
+    height: 65px;
     align-items: center;
+    justify-content: space-between;
+}
+
+nav .logo {
+    font-family: garamond;
+    letter-spacing: 3px;
 }
 
 nav .logo h4 {
@@ -49,7 +55,10 @@ nav ul li a {
 
 nav ul li a:hover {
     color: aliceblue;
+    text-decoration: none;
+    font-size: 0.9em;
 }
+
 nav ul li a:after {
     content: '';
     position: absolute;
@@ -106,14 +115,12 @@ nav ul li a::after::after {
 
 .menu-tonggle input:checked ~ span:nth-child(2) {
     background-color: aliceblue;
-    transform: rotate(45deg) 
-    transform: translate(-1px, -1px);
+    transform: rotate(45deg) translate(-1px, -1px);
 }
 
 .menu-tonggle input:checked ~ span:nth-child( 4) {
     background-color: aliceblue;
-    transform: rotate(-45deg) 
-    transform: translate(-1px, 0);
+    transform: rotate(-45deg) translate(-1px, 0);
 }
 
 .menu-tonggle input:checked ~ span:nth-child(3) {
