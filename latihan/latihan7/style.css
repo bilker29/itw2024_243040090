@@ -8,7 +8,10 @@ img {
 }
 
 body {
-    background-color: #ddd;
+    background-image: url(img/background.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
     font-size: 18px;
     font-family: 'Garamond',Arial, Helvetica, sans-serif;
     margin: 50px;
@@ -31,7 +34,7 @@ body {
 .hero {
     grid-area: hero;
     min-height: 350px;
-    background-image: url(img/hero.png);
+    background-image: url(img/model.jpg);
     background-size: cover;
     background-position: center;
     padding: 50PX;
@@ -50,13 +53,22 @@ body {
 
 .feature-1 {
     grid-area: feature-1;
-    background-image: url(img/hoodie.jpeg);
+    background-image: url(img/baju.jpg) ;
     background-size: cover;
 }
 
 .feature-2 {
     font-size: 3em;
     font-weight: 200;
+    background-image: url(img/hoodie.jpg);
+}
+
+.feature-3 {
+    background-image: url(img/celana.jpg);
+}
+
+.feature-4 {
+    background-image: url(img/sepatu.jpg);
 }
 
 /*Navigation*/
@@ -213,6 +225,8 @@ body {
         align-items: start;
         justify-content: center;
     }
+
+    
 }
 
 @media (max-width:768px) {  
@@ -229,7 +243,7 @@ body {
         display: flex;
          position: absolute;
          right: 0;
-         background-color: burlywood;
+         background-color: black;
          backdrop-filter: blur(4px);
          top: 0;
          width: 100%;
@@ -258,6 +272,46 @@ body {
         grid-template-areas:
             'hero'
             'feature-1'
-            'feature-2';
+            'feature-2'
+            'feature-3'
+            'feature-4';
     }  
 }
+
+.search-box {
+    background-color: black;
+    height: 18px;
+    padding: 7px 15px;
+    border-radius: 50px;
+}
+
+.search-box input {
+    border: none;
+    outline: none;
+    background: none;
+    width: 100px;
+}
+
+.search-box a {
+    color: white;
+}
+
+.shoping-box {
+    background-color: black;
+    height: 18px;
+    padding: 7px 15px;
+    border-radius: 50px;
+}
+
+.shoping-box input {
+    border: none;
+    outline: none;
+    background: none;
+    width: 100px;
+}
+
+.shoping-box a {
+    color: white;
+}
+
+
