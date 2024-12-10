@@ -84,7 +84,7 @@ body {
     display: none;
 }
 
-.features {
+.Features {
     background-color: #000;
     color: white;
     display: grid;
@@ -95,35 +95,35 @@ body {
     cursor: pointer;
 }
 
-.feature-1 {
+.Feature-1 {
     grid-area: feature-1;
     background-image: url(img/baju2.jpg);
     background-size: cover;
     background-position: center;
 }
 
-.feature-2 {
+.Feature-2 {
     grid-area: feature-2;
     background-image: url(img/hoodie3.jpg) ;
     background-size: cover;
     background-position: center;
 }
 
-.feature-3 {
+.Feature-3 {
     grid-area: feature-3;
     background-image: url(img/celana3.jpg) ;
     background-size: cover;
     background-position: center;
 }
 
-.feature-4 {
+.Feature-4 {
     grid-area: feature-4;
     background-image: url(img/sepatu3.jpg) ;
     background-size: cover;
     background-position: center;
 }
 
-.features .price {
+.Features .price {
     font-size: 3em;
     font-weight: 200;
     text-shadow: 1px 3px 2px black;
@@ -166,7 +166,6 @@ body {
 .search-box {
     background-color: black;
     height: 18px;
-    padding: 7px 15px;
     border-radius: 50px;
 }
 
@@ -174,17 +173,16 @@ body {
     border: none;
     outline: none;
     background: none;
-    width: 100px;
 }
 
 .search-box a {
-    color: white;
+    color:white;
+    padding-left: 20px;
 }
 
 .shoping-box {
     background-color: black;
     height: 18px;
-    padding: 7px 15px;
     border-radius: 50px;
 }
 
@@ -192,11 +190,11 @@ body {
     border: none;
     outline: none;
     background: none;
-    width: 100px;
 }
 
 .shoping-box a {
     color: white;
+    padding-left: 20px;
 }
 
 /* hamburger menu */
@@ -290,6 +288,7 @@ body {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 5px;
+    width: 100%;
 }
 
 .gallery h2 {
@@ -361,7 +360,7 @@ body {
         transform: translateY(0);
     }
 
-    .features .price {
+    .Features .price {
         font-size: 1.5em;
     }
 }
@@ -374,10 +373,10 @@ body {
     .header {
         grid-template-areas:
             'hero'
-            'feature-1'
-            'feature-2'
-            'feature-3'
-            'feature-4';
+            'Feature-1'
+            'Feature-2'
+            'Feature-3'
+            'Feature-4';
     }  
 }
 
