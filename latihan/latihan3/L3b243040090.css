@@ -1,19 +1,23 @@
 body {
     font-family: 'Georgia', serif;
 }
+
 h1 {
     font-family: 'Comic Sans MS', cursive, sans-serif;
     font-size: 60px;
     color: darkblue;
     text-align:center;
 }
+
 p {
     text-align: justify;
     text-align:center;;
 }
+
 .bil{
     color: white;
 }
+
 .ker{
     color: orange;
 }

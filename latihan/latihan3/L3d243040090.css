@@ -4,33 +4,41 @@ body {
     background-size: cover; 
     background-repeat: repeat-x;
 }
+
 h1 {
     font-family: 'Comic Sans MS', cursive, sans-serif;
     font-size: 60px;
     color: darkblue;
     text-align: center;
 }
+
 p {
     text-align: justify;
     text-align: center;
 }
+
 .bil{
     color: red;
 }
+
 .bil:hover {
     color: white;
     text-decoration: none;
 }
+
 .bilker:hover {
     background-color: blue; color: white;
     text-decoration: none;
 } 
+
 .wicak {
     text-align: center;
 }
+
 h3 {
     text-align: center;
 }
+
 .ker {
     text-align:center;
     color: orange

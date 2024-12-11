@@ -1,9 +1,9 @@
 /* font */
-
 @font-face {
     font-family: 'BebasNeue';
     src: url(../font/BebasNeue-Regular) format('ttf');
 }
+
 /* Style */
 * {
 	margin: 0;
@@ -13,9 +13,11 @@
 	vertical-align: baseline;
     letter-spacing: 2px;
 }
+
 ol, ul {
 	list-style: none;
 }
+
 body {
     background-image: url('../img/full/Mobile Legends_ Bang Bang _ Background for Cadia Riverland Heroes.jpg');
     background-position: center center; 
@@ -24,12 +26,15 @@ body {
     font-family: 'BebasNeue';
     height: 690px;
     line-height: 1;
+}
+
 h1 {
     font-size: 140px;
     margin-top: 40px;
     text-align: center; 
     color: black;
 }
+
 h2 {
     font-size: 25px;
     margin-top: -80px;
@@ -41,6 +46,7 @@ h2 {
     padding-left: 20px;
     text-shadow: 0px 2px 5px black;  
 }
+
 h3 {
     font-size: 40px;
     text-align: center;
@@ -49,6 +55,7 @@ h3 {
     z-index: 5;
     margin-top: -50px;
 }
+
 .container {
     width: 850px;
     background-color: rgb(26, 139, 184);
@@ -57,6 +64,7 @@ h3 {
     box-shadow: 2px 15px 10px 1px rgba(0, 0, 0, .5);
     border-radius: 20px;
 }
+
 .gallery li {
     width: 140px;
     height: 300px; 
@@ -68,9 +76,11 @@ h3 {
     box-shadow: 15px 10px 8px 1px rgba(0, 0, 0, .5);
 
 }
+
 .gallery .baris2 {
     margin-top: 70px;
 }
+
 .gallery li img {
     width: 300px;
     margin-left: -80px;
@@ -81,6 +91,7 @@ h3 {
 .gallery li span {
     border-radius: 20px;
 }
+
 .gallery li span {
     display: block;
     width: 140px;
@@ -95,12 +106,15 @@ h3 {
     font-size: 20px;
     transform: scale(0);
 }
+
 .gallery li span .a1 {
     padding-top: 120px;
 }
+
 .gallery  li span p {
     color: #192140;
 }
+
 .gallery li a:hover span{
     opacity: 90%;
     animation: zoomdanfade 0.3s forwards;
@@ -109,6 +123,7 @@ h3 {
 .clear {
     clear: both;
 }
+
 /* overlay */
 .overlay {
     position: fixed;
@@ -123,6 +138,7 @@ h3 {
     text-align: center;
     padding: 100px 0px;
 }
+
 .overlay:target {
     bottom: 0;
     right: 0;
@@ -130,11 +146,13 @@ h3 {
     width: auto;
     height: auto;  
 }
+
 .overlay img {
     max-height: 100%;
     box-shadow: 5px 5px 10px rgba(0,0,0,.5);
     border-radius: 10px;
 }
+
 .overlay .close {
     position: absolute;
     top: 60px;
@@ -158,12 +176,15 @@ h3 {
 .overlay:target .close {
     animation: slidedownfade .5s .5s forwards;
 }
+
 .overlay:target h3 {
     animation: zoomdanfade 1s;
 }
+
 .overlay:target img {
     animation: zoomdanfade 1s;
 }
+
 /* Animasi */
 @keyframes zoomdanfade {
     0% {
@@ -175,6 +196,7 @@ h3 {
         opacity: 1;
     }
 }
+
 @keyframes slidedownfade {
     0% {
         opacity: 0;
